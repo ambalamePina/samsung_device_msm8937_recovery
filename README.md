@@ -9,5 +9,5 @@ lunch omni_m01q-eng
 make recoveryimage
 ```
 Bugs
-Encryption
+Encryption , 
 Fastbootd
