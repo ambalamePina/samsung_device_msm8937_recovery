@@ -92,8 +92,8 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 # Dynamic Partitions
 BOARD_SUPER_PARTITION_SIZE := 3945791488
 BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
-board_qti_dynamic_partitions_size=3945791488
-board_qti_dynamic_partitions_partition_list=system vendor product odm
+BOARD_QTI_DYNAMIC_PARTITIONS_SIZE=3945791488
+BOARD_QTI_DYNAMIC_PARTITIONS_list=system vendor product odm
 
 # System as root
 BOARD_ROOT_EXTRA_FOLDERS := cache carrier efs keydata keyrefuge optics prism
