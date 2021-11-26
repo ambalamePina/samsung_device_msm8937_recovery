@@ -18,7 +18,7 @@
 PRODUCT_RELEASE_NAME := m01q
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -45,3 +45,5 @@ PRODUCT_MODEL := Samsung Galaxy M01
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+TARGET_VENDOR := samsung 
+BOARD_VENDOR := Qualcomm
